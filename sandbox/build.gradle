@@ -3,9 +3,9 @@ apply plugin: 'application'
 mainClassName = "Helloworld"
 
 repositories {
-    mavenCentral()
+    jcenter()
 }
 
-dependencies{
-    implementation 'org.testng:testng:7.0.0-beta4'
+dependencies {
+    testCompile 'org.testng:testng:6.10'
 }
