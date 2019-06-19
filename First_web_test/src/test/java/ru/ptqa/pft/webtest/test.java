@@ -15,6 +15,7 @@ public class test {
     private String baseUrl;
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
+    сапмспсп
 
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
